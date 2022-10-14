@@ -34,6 +34,7 @@ A [Hugo](https://gohugo.io/) theme for a personal portfolio with minimalist desi
   - GoatCounter
   - counter.dev
   - Google Analytics
+  - Matomo/Piwik
 - Comment Support
   - [Disqus](https://disqus.com/)
   - [Valine](https://valine.js.org/)
@@ -58,6 +59,9 @@ For more details about the features please visit [here](https://toha-guides.netl
 - русский
 - suomi
 - Tiếng Việt
+- Turkish
+- Arabic (العربية)
+- Português
 
 To know more about how to translate your site, please visit [here](https://toha-guides.netlify.app/posts/translation/). Follow, the data and post format from this [example site](https://hugo-toha.github.io).
 
@@ -144,6 +148,9 @@ params:
 
   # specify whether you want to show Table of Contents in reading page
   enableTOC: true
+
+  # specify whether you want the language flags to be displayed. 
+  showFlags: true
 
   # Provide newsletter configuration. 
   # This feature has been implemented for Mailchimp only for now.
@@ -240,13 +247,14 @@ Here is the check list for portfolio mode,
 
 - [ ] **Publications**
 
-  - [ ] Category Filter
-  - [ ] Card
-  - [ ] Abstract
-  - [ ] Authors
-  - [ ] Tags
-  - [ ] Links
-  - [ ] Gallery
+  - [x] Category Filter
+  - [x] Card
+  - [x] Tags
+  - [x] Links
+  - [ ] Dedicated Page
+    - [ ] Abstract
+    - [ ] Authors
+    - [ ] Gallery
 
 - [x] **Accomplishment / Courses**
 
